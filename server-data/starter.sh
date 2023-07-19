@@ -1,0 +1,1 @@
+screen -dmS "rdrProjectRed" bash ../server/run.sh +exec server.cfg +set gamename rdr3
