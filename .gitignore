@@ -1,0 +1,9 @@
+*.cfg
+/server-data/resources/[gamemodes]
+/server-data/resources/[gameplay]
+/server-data/resources/[test]
+/server-data/resources/[local]
+/server-data/resources/[managers]
+/server-data/resources/[system]
+/server-data/cache/
+/server/
