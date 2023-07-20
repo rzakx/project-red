@@ -1,0 +1,7 @@
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] [0m[0m[32mScanning resources.[0m
+[38;5;163m[    c-resources-core] [0m[0mResource loading for dupa failed:
+[38;5;163m[    c-resources-core] [0m[0mCould not open resource metadata file - no such file.
+[38;5;73m[ citizen-server-impl] [0m[0m[32mFound 27 resources.[0m
+[38;5;66m[          svadhesive] [0m[0mAuthenticating server license key...
+Could not authenticate server license key. Something is broken. Please let us know what you were doing when this error occured.[38;5;66m[          svadhesive] [0m[0mError: Could not authenticate server license key. Something is broken. Please let us know what you were doing when this error occured.

@@ -7,3 +7,4 @@
 /server-data/resources/[system]
 /server-data/cache/
 /server/
+node_modules/

@@ -1,0 +1,32 @@
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] [0m[0m[32mScanning resources.[0m
+[38;5;163m[    c-resources-core] [0m[0mResource loading for node_modules failed:
+[38;5;163m[    c-resources-core] [0m[0mCould not open resource metadata file - no such file.
+[38;5;73m[ citizen-server-impl] [0m[0m[32mFound 29 resources.[0m
+[38;5;66m[          svadhesive] [0m[0mAuthenticating server license key...
+[38;5;66m[          svadhesive] [0m[0mServer license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for yarn
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource yarn
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for sessionmanager-rdr3
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource sessionmanager-rdr3
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for oxmysql
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource oxmysql
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource spawnmanager
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mapmanager
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;42m[      script:oxmysql] [0m[0m[32mDatabase server connection established![97m
+[38;5;73m[ citizen-server-impl] [0m[97m[91m        fff                          
+[38;5;73m[ citizen-server-impl] [0m[91m[91m  cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] [0m[91m[91mcc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] [0m[91m[91mcc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl] [0m[91m[91m ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl] [0m[91m                                     [0m
+[38;5;73m[ citizen-server-impl] [0m[0m[32mAuthenticated with cfx.re Nucleus: [0mhttps://rzakx-b9le4d.users.cfx.re/
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mq[0m[0;1;30muit[0m[7G[6G[J[0;1;35mqu[0m[0;1;30mit[0m[8G[6G[J[0;1;35mqui[0m[0;1;30mt[0m[9G[6G[J[0;1;35mquit[0m[10G[6G[J[0;1;35mquit[0m[10G
+[38;5;186m[ citizen-server-main] [0m[0m-> Quitting: Quit command executed.
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Server shutting down: Quit command executed.)
+cfx> [6G[J[0;1;35mn[0m[0;1;30metPort[0m[7G[6G[J[0;1;35mna[0m[8G

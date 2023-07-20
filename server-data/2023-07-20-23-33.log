@@ -1,0 +1,62 @@
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for _cfx_internal
+[38;5;73m[ citizen-server-impl] [0m[0m[32mScanning resources.[0m
+[38;5;163m[    c-resources-core] [0m[0mResource loading for node_modules failed:
+[38;5;163m[    c-resources-core] [0m[0mCould not open resource metadata file - no such file.
+[38;5;73m[ citizen-server-impl] [0m[0m[32mFound 29 resources.[0m
+[38;5;66m[          svadhesive] [0m[0mAuthenticating server license key...
+[38;5;66m[          svadhesive] [0m[0mServer license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for yarn
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource yarn
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for sessionmanager-rdr3
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource sessionmanager-rdr3
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for oxmysql
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource oxmysql
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource spawnmanager
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mapmanager
+[38;5;154m[   script:mapmanager] [0m[0mStarted gametype Freeroam
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource basic-gamemode
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;154m[   script:mapmanager] [0m[0mStarted map redm-map-one
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource redm-map-one
+[38;5;42m[      script:oxmysql] [0m[0m[32mDatabase server connection established![97m
+[38;5;73m[ citizen-server-impl] [0m[97m[91m        fff                          
+[38;5;73m[ citizen-server-impl] [0m[91m[91m  cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] [0m[91m[91mcc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] [0m[91m[91mcc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl] [0m[91m[91m ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl] [0m[91m                                     [0m
+[38;5;73m[ citizen-server-impl] [0m[0m[32mAuthenticated with cfx.re Nucleus: [0mhttps://rzakx-b9le4d.users.cfx.re/
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35ms[0m[0;1;30met[0m[7G[6G[J[0m[6G[6G[J[0;1;35mr[0m[0;1;30mateLimiter_getinfo_burst[0m[7G[6G[J[0;1;35mre[0m[0;1;30mfresh[0m[8G[6G[J[0;1;35mres[0m[0;1;30mtart[0m[9G[6G[J[0;1;35mrest[0m[0;1;30mart[0m[10G[6G[J[0;1;35mresta[0m[0;1;30mrt[0m[11G[6G[J[0;1;35mrestar[0m[0;1;30mt[0m[12G[6G[J[0;1;35mrestart[0m[13G[6G[J[0;1;35mrestart[0m [0m[0;1;30mbaseevents[0m[14G[6G[J[0;1;35mrestart[0m m[0m[0;1;30mapmanager[0m[15G[6G[J[0;1;35mrestart[0m mk[0m[0;1;30mframe-connect[0m[16G[6G[J[0;1;35mrestart[0m mkf[0m[0;1;30mrame-connect[0m[17G[6G[J[0;1;35mrestart[0m mkfr[0m[0;1;30mame-connect[0m[18G[6G[J[0;1;35mrestart[0m mkframe-[0m[0;1;30mconnect[0m[22G[6G[J[0;1;35mrestart[0m mkframe-[0m[22G
+[0;1;35mmkframe-[0mconnect     [0;1;35mmkframe-[0mloadscreen
+cfx> [6G[J[0;1;35mrestart[0m mkframe-[0m[0;1;30mconnect[0m[22G[6G[J[0;1;35mrestart[0m mkframe-l[0m[0;1;30moadscreen[0m[23G[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-loadscreen
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-loadscreen
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
+cfx> [6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-loadscreen
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35ms[0m[0;1;30met[0m[7G[6G[J[0;1;35mst[0m[0;1;30mart[0m[8G[6G[J[0;1;35msto[0m[0;1;30mp[0m[9G[6G[J[0;1;35mstop[0m[10G[6G[J[0;1;35mstop[0m [0m[0;1;30mbaseevents[0m[11G[6G[J[0;1;35mstop[0m m[0m[0;1;30mapmanager[0m[12G[6G[J[0;1;35mstop[0m mk[0m[0;1;30mframe-connect[0m[13G[6G[J[0;1;35mstop[0m mkf[0m[0;1;30mrame-connect[0m[14G[6G[J[0;1;35mstop[0m mkfr[0m[0;1;30mame-connect[0m[15G[6G[J[0;1;35mstop[0m mkframe-[0m[0;1;30mconnect[0m[19G[6G[J[0;1;35mstop[0m mkframe--[0m[20G[6G[J[0;1;35mstop[0m mkframe--l[0m[21G[6G[J[0;1;35mstop[0m mkframe--[0m[20G[6G[J[0;1;35mstop[0m mkframe-[0m[0;1;30mconnect[0m[19G[6G[J[0;1;35mstop[0m mkframe-l[0m[0;1;30moadscreen[0m[20G[6G[J[0;1;35mstop[0m mkframe-loadscreen[0m[29G[6G[J[0;1;35mstop[0m mkframe-loadscreen[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-loadscreen
+cfx> [6G[J[0;1;35mf[0m[0;1;30mileserver_add[0m[7G[6G[J[0m[6G[6G[J[0;1;35mr[0m[0;1;30mateLimiter_getinfo_burst[0m[7G[6G[J[0;1;35mre[0m[0;1;30mfresh[0m[8G[6G[J[0;1;35mref[0m[0;1;30mresh[0m[9G[6G[J[0;1;35mrefr[0m[0;1;30mesh[0m[10G[6G[J[0;1;35mrefre[0m[0;1;30msh[0m[11G[6G[J[0;1;35mrefres[0m[0;1;30mh[0m[12G[6G[J[0;1;35mrefresh[0m[13G[6G[J[0;1;35mrefreshj[0m[14G[6G[J[0;1;35mrefresh[0m[13G[6G[J[0;1;35mrefresh[0m[13G
+[38;5;73m[ citizen-server-impl] [0m[0m[32mScanning resources.[0m
+[38;5;163m[    c-resources-core] [0m[0mResource loading for node_modules failed:
+[38;5;163m[    c-resources-core] [0m[0mCould not open resource metadata file - no such file.
+[38;5;73m[ citizen-server-impl] [0m[0m[32mFound 2 new resources, and refreshed 0/28 resources.[0m
+cfx> [6G[J[0;1;35me[0m[0;1;30mndpoint_add_tcp[0m[7G[6G[J[0;1;35men[0m[0;1;30mdpoint_add_tcp[0m[8G[6G[J[0;1;35mens[0m[0;1;30mure[0m[9G[6G[J[0;1;35mensu[0m[0;1;30mre[0m[10G[6G[J[0;1;35mensur[0m[0;1;30me[0m[11G[6G[J[0;1;35mensure[0m[12G[6G[J[0;1;35mensure[0m [0m[0;1;30mbaseevents[0m[13G[6G[J[0;1;35mensure[0m b[0m[0;1;30maseevents[0m[14G[6G[J[0;1;35mensure[0m bb[0m[15G[6G[J[0;1;35mensure[0m b[0m[0;1;30maseevents[0m[14G[6G[J[0;1;35mensure[0m bc[0m[0;1;30mc-loadscreen[0m[15G[6G[J[0;1;35mensure[0m bcc[0m[0;1;30m-loadscreen[0m[16G[6G[J[0;1;35mensure[0m bcc-loadscreen[0m[27G[6G[J[0;1;35mensure[0m bcc-loadscreen[0m[27G
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource bcc-loadscreen
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[6G[J[0;1;35mq[0m[0;1;30muit[0m[7G[6G[J[0;1;35mqu[0m[0;1;30mit[0m[8G[6G[J[0;1;35mqui[0m[0;1;30mt[0m[9G[6G[J[0;1;35mquit[0m[10G[6G[J[0;1;35mquit[0m[10G
+[38;5;186m[ citizen-server-main] [0m[0m-> Quitting: Quit command executed.
+cfx> 
