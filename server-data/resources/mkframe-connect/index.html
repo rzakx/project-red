@@ -6,10 +6,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; box-sizing: border-box; font-family: "Roboto", sans-serif; }
-        body { height: 100vh; width: 100vw; background: #080808; color: #eee; display: flex; align-items: center; justify-content: center;}
+        body { height: 100vh; width: 100vw; background: #080808aa; color: #eee; display: flex; align-items: center; justify-content: center;}
         h1 { font-size: 2rem; }
     </style>
 </head>
@@ -18,19 +17,11 @@
 </body>
 <script>
     function dupa(){
-        console.log("wykonuje dupa()");
-        fetch(`https://mkframe-loadscreen/wylaczLoadingScreen`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json; charset=UTF-8',
-            },
-            body: JSON.stringify({
-                itemId: 'my-item'
-            })
-        }).then(resp => resp.json()).then(resp => console.log(resp));
+        fetch(`https://mkframe-connect/wylaczLoadingScreen`, {method: 'POST'}).then(resp => resp.json()).then(resp => console.log(resp));
     }
-    window.addEventListener("message", (co) => {
+    function zamknij(){
         document.body.style.display = "none";
-    });
+    }
+    window.addEventListener("message", zamknij);
 </script>
 </html>

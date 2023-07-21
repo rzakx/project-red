@@ -2,23 +2,22 @@
 [38;5;73m[ citizen-server-impl] [0m[0m[32mScanning resources.[0m
 [38;5;163m[    c-resources-core] [0m[0mResource loading for node_modules failed:
 [38;5;163m[    c-resources-core] [0m[0mCould not open resource metadata file - no such file.
-[38;5;73m[ citizen-server-impl] [0m[0m[32mFound 29 resources.[0m
+[38;5;73m[ citizen-server-impl] [0m[0m[32mFound 28 resources.[0m
 [38;5;66m[          svadhesive] [0m[0mAuthenticating server license key...
 [38;5;66m[          svadhesive] [0m[0mServer license key authentication succeeded. Welcome!
 [38;5;161m[    c-scripting-core] [0m[0mCreating script environments for yarn
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource yarn
 [38;5;161m[    c-scripting-core] [0m[0mCreating script environments for sessionmanager-rdr3
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource sessionmanager-rdr3
-[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
 [38;5;161m[    c-scripting-core] [0m[0mCreating script environments for oxmysql
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource oxmysql
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource spawnmanager
 [38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mapmanager
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource mapmanager
 [38;5;154m[   script:mapmanager] [0m[0mStarted gametype Freeroam
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource basic-gamemode
-[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
-[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
 cfx> [38;5;154m[   script:mapmanager] [0m[0mStarted map redm-map-one
 [38;5;73m[ citizen-server-impl] [0m[0mStarted resource redm-map-one
 [38;5;42m[      script:oxmysql] [0m[0m[32mDatabase server connection established![97m
@@ -30,12 +29,521 @@ cfx> [38;5;154m[   script:mapmanager] [0m[0mStarted map redm-map-one
 [38;5;73m[ citizen-server-impl] [0m[91m                                     [0m
 [38;5;73m[ citizen-server-impl] [0m[0m[32mAuthenticated with cfx.re Nucleus: [0mhttps://rzakx-b9le4d.users.cfx.re/
 [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
-[6G[J[0;1;35mr[0m[0;1;30mateLimiter_getinfo_burst[0m[7G[6G[J[0;1;35mre[0m[0;1;30mfresh[0m[8G[6G[J[0;1;35mres[0m[0;1;30mtart[0m[9G[6G[J[0;1;35mrest[0m[0;1;30mart[0m[10G[6G[J[0;1;35mresta[0m[0;1;30mrt[0m[11G[6G[J[0;1;35mrestar[0m[0;1;30mt[0m[12G[6G[J[0;1;35mrestart[0m[13G[6G[J[0;1;35mrestart[0m [0m[0;1;30mbaseevents[0m[14G[6G[J[0;1;35mrestart[0m m[0m[0;1;30mapmanager[0m[15G[6G[J[0;1;35mrestart[0m mk[0m[0;1;30mframe-connect[0m[16G[6G[J[0;1;35mrestart[0m mkf[0m[0;1;30mrame-connect[0m[17G[6G[J[0;1;35mrestart[0m mkframe-[0m[0;1;30mconnect[0m[22G[6G[J[0;1;35mrestart[0m mkframe-l[0m[0;1;30moadscreen[0m[23G[6G[J[0;1;35mrestart[0m mkframe-lo[0m[0;1;30madscreen[0m[24G[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G[6G[J[0;1;35mrestart[0m mkframe-loadscreen[0m[32G
-[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-loadscreen
-[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-loadscreen
+[6G[J[0;1;35mr[0m[0;1;30mateLimiter_getinfo_burst[0m[7G[6G[J[0;1;35mre[0m[0;1;30mfresh[0m[8G[6G[J[0;1;35mres[0m[0;1;30mtart[0m[9G[6G[J[0;1;35mrest[0m[0;1;30mart[0m[10G[6G[J[0;1;35mresta[0m[0;1;30mrt[0m[11G[6G[J[0;1;35mrestar[0m[0;1;30mt[0m[12G[6G[J[0;1;35mrestart[0m[13G[6G[J[0;1;35mrestart[0m [0m[0;1;30mbaseevents[0m[14G[6G[J[0;1;35mrestart[0m m[0m[0;1;30mapmanager[0m[15G[6G[J[0;1;35mrestart[0m mk[0m[0;1;30mframe-connect[0m[16G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 158 milliseconds
+cfx> [6G[J[0m[6G
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
 cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
 [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
-[6G[J[0;1;35mq[0m[0;1;30muit[0m[7G[6G[J[0;1;35mqu[0m[0;1;30mit[0m[8G[6G[J[0;1;35mqui[0m[0;1;30mt[0m[9G[6G[J[0;1;35mquit[0m[10G[6G[J[0;1;35mquit[0m[10G
-[38;5;186m[ citizen-server-main] [0m[0m-> Quitting: Quit command executed.
-[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Server shutting down: Quit command executed.)
+[38;5;161m[    c-scripting-core] [0m[0mInvokeNative: execution failed: Argument at index 1 was null.
+[38;5;66m[script:mkframe-conne] [0m[0m[91mError: Unhandled promise failure: Error: Execution of native 000000002f7a49e6 in script host failed: Argument at index 1 was null.
+[38;5;66m[script:mkframe-conne] [0m[91m    at global.TriggerClientEventInternal (citizen:/scripting/v8/natives_server.js:2921:9)
+[38;5;66m[script:mkframe-conne] [0m[91m    at global.emitNet (citizen:/scripting/v8/main.js:249:4)
+[38;5;66m[script:mkframe-conne] [0m[91m    at @mkframe-connect/server.js:55:17
+[38;5;66m[script:mkframe-conne] [0m[91m    at async citizen:/scripting/v8/main.js:482:9[0m
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Server->client connection timed out. Last seen 38625 msec ago.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Server->client connection timed out. Last seen 55257 msec ago.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Server->client connection timed out. Last seen 55303 msec ago.)
+[38;5;73m[ citizen-server-impl] [0m[0msync thread hitch warning: timer interval of 148 milliseconds
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mr[0m[0;1;30mateLimiter_getinfo_burst[0m[7G[6G[J[0;1;35mre[0m[0;1;30mfresh[0m[8G[6G[J[0;1;35mres[0m[0;1;30mtart[0m[9G[6G[J[0;1;35mrest[0m[0;1;30mart[0m[10G[6G[J[0;1;35mresta[0m[0;1;30mrt[0m[11G[6G[J[0;1;35mrestar[0m[0;1;30mt[0m[12G[6G[J[0;1;35mrestart[0m[13G[6G[J[0;1;35mrestart[0m [0m[0;1;30mbaseevents[0m[14G[6G[J[0;1;35mrestart[0m m[0m[0;1;30mapmanager[0m[15G[6G[J[0;1;35mrestart[0m mk[0m[0;1;30mframe-connect[0m[16G[6G[J[0;1;35mrestart[0m mkf[0m[0;1;30mrame-connect[0m[17G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 181 milliseconds
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mkonyu nie ma whitelisty | steam:1100001071c7791
+[38;5;66m[script:mkframe-conne] [0m[0mkonyu ma bana a chce wbic lol
+[38;5;66m[script:mkframe-conne] [0m[0mkonyu ma bana a chce wbic lol
+[38;5;66m[script:mkframe-conne] [0m[0mkonyu wchodzi na serwer | steam:1100001071c7791
+[38;5;66m[script:mkframe-conne] [0m[0mGracz konyu wyszedł. (Powod: Server->client connection timed out. Last seen 49637 msec ago.)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mkonyu wchodzi na serwer | steam:1100001071c7791
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 158 milliseconds
+[38;5;66m[script:mkframe-conne] [0m[0mArdzix nie ma whitelisty | steam:110000134a28f74
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mZezwalam
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 11
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 11
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 160 milliseconds
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 13
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mGracz konyu wyszedł. (Powod: Exiting)
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[38;5;66m[script:mkframe-conne] [0m[0mZezwalam 14
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 192 milliseconds
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 162 milliseconds
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 152 milliseconds
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;66m[script:mkframe-conne] [0m[0mError loading script server.js in resource mkframe-connect: ReferenceError: XMLHttpRequest is not defined
+[38;5;66m[script:mkframe-conne] [0m[0mstack:
+[38;5;66m[script:mkframe-conne] [0m[0mReferenceError: XMLHttpRequest is not defined
+[38;5;66m[script:mkframe-conne] [0m[0m    at @mkframe-connect/server.js:2:15
+[38;5;161m[    c-scripting-core] [0m[0mFailed to load script server.js.
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in event `playerDropped': ReferenceError: fetch is not defined[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> webhook[0m ([36m@mkframe-connect/server.js[0m:3)
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:30)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;66m[script:mkframe-conne] [0m[0mError parsing script @mkframe-connect/server.js in resource mkframe-connect: SyntaxError: Cannot use import statement outside a module
+[38;5;161m[    c-scripting-core] [0m[0mFailed to load script server.js.
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in timer: TypeError: (intermediate value).now is not a function[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:98)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in timer: TypeError: (intermediate value).now is not a function[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:98)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in timer: TypeError: (intermediate value).now is not a function[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:98)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in timer: TypeError: (intermediate value).now is not a function[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:98)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in timer: TypeError: Date.now is not a constructor[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:98)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[91mSCRIPT ERROR in timer: TypeError: Date.now is not a constructor[0m
+[38;5;66m[script:mkframe-conne] [0m[0m[93m> <unknown>[0m ([36m@mkframe-connect/server.js[0m:98)
+[38;5;66m[script:mkframe-conne] [0m[0m
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0m1689944971413
+[38;5;66m[script:mkframe-conne] [0m[0m1689944976433
+[38;5;66m[script:mkframe-conne] [0m[0m1689944981478
+[38;5;66m[script:mkframe-conne] [0m[0m1689944986502
+[38;5;66m[script:mkframe-conne] [0m[0m1689944991526
+[38;5;66m[script:mkframe-conne] [0m[0m1689944996563
+[38;5;66m[script:mkframe-conne] [0m[0m1689945001587
+[38;5;66m[script:mkframe-conne] [0m[0m1689945006636
+[38;5;66m[script:mkframe-conne] [0m[0m1689945011648
+[38;5;66m[script:mkframe-conne] [0m[0m1689945016682
+[38;5;66m[script:mkframe-conne] [0m[0m1689945021708
+[38;5;66m[script:mkframe-conne] [0m[0m1689945026734
+[38;5;66m[script:mkframe-conne] [0m[0m1689945031754
+[38;5;66m[script:mkframe-conne] [0m[0m1689945036771
+[38;5;66m[script:mkframe-conne] [0m[0m1689945041804
+[38;5;66m[script:mkframe-conne] [0m[0m1689945046843
+[38;5;66m[script:mkframe-conne] [0m[0m1689945051878
+[38;5;66m[script:mkframe-conne] [0m[0m1689945056901
+[38;5;66m[script:mkframe-conne] [0m[0m1689945061922
+[38;5;66m[script:mkframe-conne] [0m[0m1689945066943
+[38;5;66m[script:mkframe-conne] [0m[0m1689945071974
+[38;5;66m[script:mkframe-conne] [0m[0m1689945077019
+[38;5;66m[script:mkframe-conne] [0m[0m1689945082055
+[38;5;66m[script:mkframe-conne] [0m[0m1689945087058
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 197 milliseconds
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 200 milliseconds
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 230 milliseconds
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 155 milliseconds
+cfx> [6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 181 milliseconds
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio ma bana a chce wbic lol
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 173 milliseconds
+[38;5;66m[script:mkframe-conne] [0m[0msotiio ma bana a chce wbic lol
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mserver thread hitch warning: timer interval of 202 milliseconds
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio ma bana a chce wbic lol
+[38;5;66m[script:mkframe-conne] [0m[0msotiio nie ma whitelisty | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Exiting)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msteam:11000010f1ed1a7
+[38;5;66m[script:mkframe-conne] [0m[0mlicense:1ebb25f93ed3c470c0e3d2e80641a819a9ca63bf
+[38;5;66m[script:mkframe-conne] [0m[0mxbl:2535454101504516
+[38;5;66m[script:mkframe-conne] [0m[0mlive:844425361121365
+[38;5;66m[script:mkframe-conne] [0m[0mdiscord:458609502535811072
+[38;5;66m[script:mkframe-conne] [0m[0mlicense2:1ebb25f93ed3c470c0e3d2e80641a819a9ca63bf
+[38;5;66m[script:mkframe-conne] [0m[0mip:89.39.171.137
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G[6G[J[0;1;35mrestart[0m mkframe-connect[0m[29G
+[38;5;73m[ citizen-server-impl] [0m[0mStopping resource mkframe-connect
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mkframe-connect
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mkframe-connect
+cfx> [38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: Disconnected.)
+[38;5;66m[script:mkframe-conne] [0m[0msotiio wchodzi na serwer | steam:11000010f1ed1a7
+[6G[J[0;1;35mk[0m[7G[6G[J[0;1;35mki[0m[8G[6G[J[0;1;35mk[0m[7G[6G[J[0m[6G[6G[J[0m[6G
++vstr                               rateLimiter_netEvent_burst
+-vstr                               rateLimiter_netEvent_rate
+adhesive_cdnKey                     rcon_password
+citizen_dir                         refresh
+cmdlist                             restart
+con_disableNonTTYReads              set
+endpoint_add_tcp                    seta
+endpoint_add_udp                    setr
+ensure                              sets
+exec                                start
+fileserver_add                      steam_webApiKey
+fileserver_list                     stop
+fileserver_remove                   sv_authMaxVariance
+gamename                            sv_authMinTrust
+gametype                            sv_endpointPrivacy
+heartbeat                           sv_endpoints
+load_server_icon                    sv_enforceGameBuild
+locale                              sv_enhancedHostSupport
+mapname                             sv_entityLockdown
+mysql                               sv_filterRequestControl
+mysql_connection_string             sv_filterRequestControlSettleTimer
+netPort                             sv_forceIndirectListing
+net_tcpConnLimit                    sv_hostname
+netlib                              sv_icon
+onesync                             sv_infoVersion
+onesync_automaticResend             sv_lan
+onesync_clearArea                   sv_licenseKey
+onesync_distanceCullVehicles        sv_licenseKeyToken
+onesync_distanceCulling             sv_listingHostOverride
+onesync_enableBeyond                sv_listingIpOverride
+onesync_enableInfinity              sv_master1
+onesync_enabled                     sv_master2
+onesync_forceMigration              sv_master3
+onesync_logFile                     sv_maxClients
+--More--				onesync_population                  sv_projectDesc
+onesync_radiusFrequency             sv_projectName
+onesync_showObjectIds               sv_pureLevel
+onesync_workaround763185            sv_registerMulticastDns
+oxmysql_debug                       sv_requestParanoia
+quit                                sv_scriptHookAllowed
+rateLimiter_getinfo_burst           sv_tebexSecret
+rateLimiter_getinfo_rate            sv_threadedClientHttp
+rateLimiter_http_info_burst         sv_useAccurateSends
+rateLimiter_http_info_rate          tags
+rateLimiter_http_players_burst      toggle
+rateLimiter_http_players_rate       version
+rateLimiter_netEventFlood_burst     vstr
+rateLimiter_netEventFlood_rate      wait
+rateLimiter_netEventSize_burst      web_baseUrl
+rateLimiter_netEventSize_rate
+cfx> [6G[J[0m[6G[6G[J[0;1;35mc[0m[0;1;30mitizen_dir[0m[7G[6G[J[0;1;35mcl[0m[8G[6G[J[0;1;35mcli[0m[9G[6G[J[0;1;35mclie[0m[10G[6G[J[0;1;35mclien[0m[11G[6G[J[0;1;35mclient[0m[12G[6G[J[0;1;35mclientk[0m[13G[6G[J[0;1;35mclientki[0m[14G[6G[J[0;1;35mclientkic[0m[15G[6G[J[0;1;35mclientkick[0m[16G[6G[J[0;1;35mclientkick[0m [0m[17G[6G[J[0;1;35mclientkick[0m [0;1;33m1[0m[18G[6G[J[0;1;35mclientkick[0m [0;1;33m13[0m[19G[6G[J[0;1;35mclientkick[0m [0;1;33m1[0m[18G[6G[J[0;1;35mclientkick[0m [0m[17G[6G[J[0;1;35mclientkick[0m s[0m[18G[6G[J[0;1;35mclientkick[0m so[0m[19G[6G[J[0;1;35mclientkick[0m sot[0m[20G[6G[J[0;1;35mclientkick[0m soti[0m[21G[6G[J[0;1;35mclientkick[0m sotii[0m[22G[6G[J[0;1;35mclientkick[0m sotiio[0m[23G[6G[J[0;1;35mclientkick[0m sotiio [0m[24G[6G[J[0;1;35mclientkick[0m sotiio [0;1;33m1[0m[25G[6G[J[0;1;35mclientkick[0m sotiio [0;1;33m13[0m[26G[6G[J[0;1;35mclientkick[0m sotiio [0;1;33m13[0m[26G
+[38;5;171m[                 cmd] [0m[0mNo such command clientkick.
+cfx> [6G[J[0;1;35ms[0m[0;1;30met[0m[7G[6G[J[0;1;35mst[0m[0;1;30mart[0m[8G[6G[J[0;1;35msta[0m[0;1;30mrt[0m[9G[6G[J[0;1;35mstat[0m[10G[6G[J[0;1;35mstatu[0m[11G[6G[J[0;1;35mstatus[0m[12G[6G[J[0;1;35mstatus[0m[12G
+[38;5;171m[                 cmd] [0m[0mNo such command status.
+cfx> [6G[J[0;1;35me[0m[0;1;30mndpoint_add_tcp[0m[7G[6G[J[0;1;35men[0m[0;1;30mdpoint_add_tcp[0m[8G[6G[J[0;1;35mens[0m[0;1;30mure[0m[9G[6G[J[0;1;35mensu[0m[0;1;30mre[0m[10G[6G[J[0;1;35mensur[0m[0;1;30me[0m[11G[6G[J[0;1;35mensure[0m[12G[6G[J[0;1;35mensure[0m [0m[0;1;30mbaseevents[0m[13G[6G[J[0;1;35mensure[0m r[0m[0;1;30mconlog[0m[14G[6G[J[0;1;35mensure[0m rc[0m[0;1;30monlog[0m[15G[6G[J[0;1;35mensure[0m rconlog[0m[20G[6G[J[0;1;35mensure[0m rconlog[0m[20G
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for rconlog
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource rconlog
+cfx> [6G[J[0;1;35ms[0m[0;1;30met[0m[7G[6G[J[0;1;35mst[0m[0;1;30mart[0m[8G[6G[J[0;1;35msta[0m[0;1;30mrt[0m[9G[6G[J[0;1;35mstat[0m[10G[6G[J[0;1;35mstatu[0m[11G[6G[J[0;1;35mstatus[0m[12G[6G[J[0;1;35mstatus[0m[12G
+[38;5;203m[      script:rconlog] [0m[0m22 steam:11000010f1ed1a7 sotiio 89.39.171.137 36
+cfx> [6G[J[0;1;35mc[0m[0;1;30mitizen_dir[0m[7G[6G[J[0;1;35mcl[0m[8G[6G[J[0;1;35mcli[0m[9G[6G[J[0;1;35mclie[0m[10G[6G[J[0;1;35mclien[0m[11G[6G[J[0;1;35mclient[0m[12G[6G[J[0;1;35mclientk[0m[13G[6G[J[0;1;35mclientki[0m[14G[6G[J[0;1;35mclientkic[0m[15G[6G[J[0;1;35mclientkick[0m[16G[6G[J[0;1;35mclientkick[0m [0m[17G[6G[J[0;1;35mclientkick[0m [0;1;33m2[0m[18G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m[19G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m [0m[20G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m c[0m[21G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m ch[0m[22G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chu[0m[23G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj[0m[24G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj [0m[25G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj c[0m[26G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj ch[0m[27G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj chu[0m[28G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj chuj[0m[29G[6G[J[0;1;35mclientkick[0m [0;1;33m22[0m chuj chuj[0m[29G
+[38;5;66m[script:mkframe-conne] [0m[0mGracz sotiio wyszedł. (Powod: chuj chuj)
 cfx> 
