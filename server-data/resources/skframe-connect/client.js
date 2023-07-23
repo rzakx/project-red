@@ -1,4 +1,3 @@
-let loadscreenAktywny = true;
 //dc rich presence
 SetDiscordAppId('1131894650974781470');
 SetDiscordRichPresenceAsset('cowboy');
@@ -10,10 +9,7 @@ RegisterNuiCallbackType('wylaczLoadingScreen');
 //import "../node_modules/@citizenfx/client";
 on(`__cfx_nui:wylaczLoadingScreen`, (body, cb) => {
     try{
-        ShutdownLoadingScreen();
-        SetNuiFocus(false, false);
-        SendNUIMessage(null);
-        loadscreenAktywny = false;
+        emitNet("wczytajPostacie");
     } catch(e) {
         console.error("Error podczas NUI callback mkframe-connect/wylaczLoadingScreen", e);
     }
@@ -25,9 +21,4 @@ onNet("ustawRichPresence", (liczba) => {
 
 setInterval( () => {
     emitNet("liczbaGraczy");
-    if(!loadscreenAktywny) return;
-    ShutdownLoadingScreen();
-    HideLoadingOnFadeThisFrame();
-    BusyspinnerOff();
-    SetNuiFocus(true, true);
-}, loadscreenAktywny ? 1000 : 15000);
+}, 30000);

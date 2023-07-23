@@ -31,7 +31,7 @@ on("playerDropped", (powod) => {
         if(identifier.includes('discord:')) discord = identifier;
     }
     let epochTime = Math.floor(Date.now() / 1000);
-    webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord.substring(8)}>\`\`\`${steamIdentifier} wychodzi z serwera (Powód: ${powod})\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
+    webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord ? discord.substring(8) : null}>\`\`\`${steamIdentifier} wychodzi z serwera (Powód: ${powod})\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
     if(liczbaGraczy) liczbaGraczy = liczbaGraczy - 1;
 });
 on('playerConnecting', async (name, setKickReason, deferrals) => {
@@ -72,24 +72,24 @@ on('playerConnecting', async (name, setKickReason, deferrals) => {
     if (steamIdentifier === null) {
         console.log(`${name} nie ma Steama.`);
         deferrals.done("Nie masz włączonego Steama...");
-        webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord.substring(8)}>\`\`\`${name}> probuje wbic bez Steama\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
+        webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord ? discord.substring(8) : null}>\`\`\`${name}> probuje wbic bez Steama\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
     } else {
         const odp = await exports['oxmysql'].query_async("SELECT * FROM `whitelist` WHERE `steam` = ?", [steamIdentifier]);
         if(odp.length){
             if(odp[0].ban && (odp[0].ban > Date.now())){
                 console.log(`${name} ma bana a chce wbic lol`);
-                webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord.substring(8)}>\`\`\`${steamIdentifier} probuje wbic\`\`\`***BAN konczy sie za*** <t:${Math.floor(odp[0].ban / 1000)}:R>\n<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
+                webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord ? discord.substring(8) : null}>\`\`\`${steamIdentifier} probuje wbic\`\`\`***BAN konczy sie za*** <t:${Math.floor(odp[0].ban / 1000)}:R>\n<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
                 deferrals.done(`\nNie możesz wejść na serwer, ponieważ jesteś zbanowany do:\n ${new Date(odp[0].ban).toLocaleString('pl')}`);
             } else {
                 //zrobic update lastJoin
-                webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord.substring(8)}>\`\`\`${steamIdentifier} wchodzi na serwer\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
+                webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord ? discord.substring(8) : null}>\`\`\`${steamIdentifier} wchodzi na serwer\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
                 console.log(`${name} wchodzi na serwer | ${steamIdentifier}`);
                 deferrals.done();
                 liczbaGraczy = liczbaGraczy + 1;
             }
         } else {
             console.log(`${name} nie ma whitelisty | ${steamIdentifier}`);
-            webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord.substring(8)}>\`\`\`${steamIdentifier} nie ma whitelist\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
+            webhook(urlWebhooki.connect, 'POST', {'content': `<@${discord ? discord.substring(8) : null}>\`\`\`${steamIdentifier} nie ma whitelist\`\`\`<t:${epochTime}:D><t:${epochTime}:T> / <t:${epochTime}:R>`});
             deferrals.done("Nie ma Cię na whitelist.");
         }
     }
